@@ -40,11 +40,11 @@ export default function Footer() {
                 <Image src="images/logo1.svg" w="40" h="20" />
               </Box>
               <Box textColor="white">
-                <PhoneIcon w={3} h={3} color="gray.400" margin={"3"} />
+                <PhoneIcon w={3} h={3} color="gray.400" margin={"2"} />
                 +233 57 289 0312
               </Box>
               <Box textColor="white">
-                <PhoneIcon w={3} h={3} color="gray.400" margin={"3"} />
+                <PhoneIcon w={3} h={3} color="gray.400" margin={"2"} />
                 +234 706 566 3620
               </Box>
               <Box textColor="white">
@@ -111,7 +111,7 @@ export default function Footer() {
               <Stack align={"flex-start"}>
                 <ListHeader>Get News</ListHeader>
                 <Stack align={"flex-start"}>
-                  <ListHeader>Subscribe for latest news</ListHeader>
+                  <Text textColor="white">Subscribe for latest news</Text>
                   <Stack direction={"row"}>
                     <Input
                       placeholder={"Your email address"}

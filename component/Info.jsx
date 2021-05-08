@@ -28,11 +28,9 @@ export default function Info() {
             >
               Please Feel Free To Contact Us
             </Text>
-            <Box
-              pt={10}
-              fontSize={{ base: "1", sm: "2xl", lg: "2xl" }}
-            >
+            <Box pt={10} fontSize={{ base: "1", sm: "2xl", lg: "2xl" }}>
               <Text color={"white"}> Hotline: +233 57 289 0312</Text>
+              <Text color={"white"}> Hotline: +234 706 566 3620</Text>
               <Text color={"white"}>Mail Address: info@nacrispools.com</Text>
             </Box>
           </Box>

@@ -21,7 +21,7 @@ export default function Footer() {
     return (
       <Text
         fontWeight={"500"}
-        fontSize={{ base: "1", sm: "sm", lg: "lg" }}
+        fontSize={{ sm: "sm", lg: "lg" }}
         mb={2}
         textColor={"white"}
       >
@@ -34,7 +34,7 @@ export default function Footer() {
     <>
       <Box background="#2f344e" bgSize={"cover"} w="100%" h="300px">
         <Container maxW={"80%"} mx="auto">
-          <SimpleGrid columns={[2, null, 3]} spacing="30px" mt={10}>
+          <SimpleGrid columns={[1, null, 3]} spacing="30px" mt={10}>
             <Box mt={10}>
               <Box>
                 <Image src="images/logo1.svg" w="40" h="20" />
@@ -42,6 +42,10 @@ export default function Footer() {
               <Box textColor="white">
                 <PhoneIcon w={3} h={3} color="gray.400" margin={"3"} />
                 +233 57 289 0312
+              </Box>
+              <Box textColor="white">
+                <PhoneIcon w={3} h={3} color="gray.400" margin={"3"} />
+                +234 706 566 3620
               </Box>
               <Box textColor="white">
                 <EmailIcon color="gray.400" margin={"3"} />

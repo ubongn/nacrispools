@@ -26,11 +26,11 @@ export default function TopBar() {
       >
         <Flex mt={1}>
           <Box>
-            <PhoneIcon w={3} h={3} color="gray.400" />
+            <PhoneIcon w={3} h={3} color="gray.400" margin={"3"} />
             +233 57 289 0312
           </Box>
           <Box pl="4">
-            <EmailIcon color="gray.400" />
+            <EmailIcon color="gray.400" margin={"3"} />
             info@nacrispools.com
           </Box>
         </Flex>

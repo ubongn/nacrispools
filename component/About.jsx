@@ -7,7 +7,6 @@ import {
     Text,
     Image,
     Icon,
-    IconProps,
     useColorModeValue,
   } from "@chakra-ui/react";
   

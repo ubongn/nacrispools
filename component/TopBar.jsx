@@ -16,9 +16,9 @@ export default function TopBar() {
       <Flex
         align="center"
         justify="space-between"
-        flex={{ base: 2 }}
+        flex={{ base: 1 }}
         lineHeight="40px"
-        fontSize="16"
+        fontSize="14"
         wrap="wrap"
         px="15"
         mx="auto"
@@ -27,13 +27,13 @@ export default function TopBar() {
         <Flex mt={1}>
           <Box>
             <PhoneIcon w={3} h={3} color="gray.400" margin={"2"} />
-            +233 57 289 0312 
+            +233 57289 0312 
           </Box>
           <Box>
             <PhoneIcon w={3} h={3} color="gray.400" margin={"2"} />
-            +234 706 566 3620
+            +234 706566 3620
           </Box>
-          <Box pl="4">
+          <Box>
             <EmailIcon color="gray.400" margin={"2"} />
             info@nacrispools.com
           </Box>

@@ -54,7 +54,7 @@ const Header = () => {
           <Box
             display={{ sm: isOpen ? "block" : "none", md: "flex" }}
             width={{ sm: "full", md: "auto" }}
-            font-family={'Open Sans'}
+            font-family={"Open Sans"}
           >
             <Link
               mt={{ base: 4, md: 0 }}

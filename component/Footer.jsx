@@ -32,7 +32,7 @@ export default function Footer() {
 
   return (
     <>
-      <Box background="#2f344e" bgSize={"cover"} w="100%" h="300px">
+      <Box background="#2f344e" bgSize={"cover"} w="100%" h="300px"  position="relative">
         <Container maxW={"80%"} mx="auto">
           <SimpleGrid columns={[1, null, 3]} spacing="30px" mt={10}>
             <Box mt={10}>

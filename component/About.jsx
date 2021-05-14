@@ -41,15 +41,15 @@ import {
               <Text
                 as={"span"}
                 color={"#7A7CA8"}
-                fontSize={{ base: "l", sm: "2xl", lg: "3xl" }}
+                fontSize={{ base: "1", sm: "2xl", lg: "3xl" }}
               >
                 We Are Swimming Pool Service Experts
               </Text>
             </Heading>
-            <Text color={"gray.500"} fontFamily={'sans-serif'}>
+            <Text color={"gray.500"}>
               Nacris Pools is involved in the construction of commercial, semi
               commercial and residential swimming pools as well as the renovation
-              and repair of existing pools.We are also dealing in Pool Surround
+              and repair of existing pools. We are also dealing in Pool Surround
               Equipment, Swimming Pool Cleaning Equipment, Under Water Light,
               Swimming Pool Furniture, Competition Equipment, Swimming Pool
               Chemical, Swimming Pool Inflatable, Life Saving Equipment, Counter

@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <>
       <TopBar />
-      <Box>
+      <Box> 
         <Flex
           as="nav"
           align="center"

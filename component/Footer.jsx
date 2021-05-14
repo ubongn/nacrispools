@@ -48,7 +48,7 @@ export default function Footer() {
                 +234 706 566 3620
               </Box>
               <Box textColor="white">
-                <EmailIcon color="gray.400" margin={"3"} />
+                <EmailIcon color="gray.400" margin={"2"} />
                 info@nacrispools.com
               </Box>
             </Box>

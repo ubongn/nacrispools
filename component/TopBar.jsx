@@ -16,18 +16,17 @@ export default function TopBar() {
       <Flex
         align="center"
         justify="space-between"
-        flex={{ base: 1 }}
-        lineHeight="40px"
-        fontSize="14"
+        lineHeight="30px"
+        fontSize="16"
         wrap="wrap"
         px="15"
         mx="auto"
         maxW="90%"
       >
-        <Flex mt={1}>
+        <Flex mt={1} wrap="wrap">
           <Box>
             <PhoneIcon w={3} h={3} color="gray.400" margin={"2"} />
-            +233 57289 0312 
+            +233 57289 0312
           </Box>
           <Box>
             <PhoneIcon w={3} h={3} color="gray.400" margin={"2"} />

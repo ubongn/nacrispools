@@ -17,7 +17,7 @@ export default function Project() {
             as={"span"}
             color={"gray.400"}
             fontWeight={300}
-            fontSize={{ base: "1", sm: "3xl", lg: "4xl" }}
+            fontSize={{ base: "18px", sm: "3xl", lg: "4xl" }}
           >
             OUR RECENT PROJECTS
           </Text>

@@ -11,7 +11,7 @@ import {
 import TopBar from "./TopBar";
 import { CloseIcon, HamburgerIcon } from "@chakra-ui/icons";
 
-const Header = () => {
+const Navbar = () => {
   const { isOpen, onToggle } = useDisclosure();
 
   return (
@@ -24,7 +24,7 @@ const Header = () => {
           justify="space-between"
           fontSize={{ sm: "md", md: "lg" }}
           wrap="wrap"
-          maxW="93%"
+          maxW="95%"
           mx="auto"
           py={{ base: 2 }}
           px={{ base: 4 }}
@@ -123,4 +123,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Navbar;

@@ -22,16 +22,16 @@ export default function Info() {
             <Text
               pt={10}
               lineHeight={1.2}
-              color={"whiteAlpha.900"}
+              color={"#fff"}
               fontWeight={400}
-              fontSize={{ base: "1", sm: "3xl", lg: "4xl" }}
+              fontSize={{ base: "1", sm: "2xl", lg: "4xl" }}
             >
               Please Feel Free To Contact Us
             </Text>
-            <Box pt={10} fontSize={{ base: "1", sm: "2xl", lg: "2xl" }}>
-              <Text color={"white"}> Hotline: +233 57 289 0312</Text>
-              <Text color={"white"}> Hotline: +234 706 566 3620</Text>
-              <Text color={"white"}>Mail Address: info@nacrispools.com</Text>
+            <Box pt={10} fontSize={{ base: "18px", sm: "2xl", lg: "2xl" }}>
+              <Text color={"#fff"}> Hotline: +233 57 289 0312</Text>
+              <Text color={"#fff"}> Hotline: +234 706 566 3620</Text>
+              <Text color={"#fff"}>Mail Address: info@nacrispools.com</Text>
             </Box>
           </Box>
         </Box>

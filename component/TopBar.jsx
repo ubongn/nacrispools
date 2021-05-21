@@ -17,11 +17,11 @@ export default function TopBar() {
         align="center"
         justify="space-between"
         lineHeight="30px"
-        fontSize="16"
+        fontSize={{ base: "sm", sm: "sm", md: "md" }}
         wrap="wrap"
         px="15"
         mx="auto"
-        maxW="90%"
+        maxW="95%"
       >
         <Flex mt={1} wrap="wrap">
           <Box>

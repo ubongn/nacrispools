@@ -23,7 +23,7 @@ export default function Services() {
           as={"span"}
           color={"gray.400"}
           fontWeight={200}
-          fontSize={{ base: "1", sm: "3xl", lg: "4xl" }}
+          fontSize={{ base: "24px", sm: "3xl", lg: "4xl" }}
         >
           OUR SERVICES
         </Text>
@@ -44,14 +44,14 @@ export default function Services() {
           </Square>
 
           <Text
-            fontSize="18px"
+            fontSize={{ base: "15px", sm: "sm", md: "md" }}
             fontWeight="bold"
             textAlign="center"
             color={"#7A7CA8"}
           >
             Swimming Pool Construction
           </Text>
-          <Text fontSize="14px" textAlign="center" color={"#7A7CA8"}>
+          <Text fontSize={{ base: "12px", sm: "sm", md: "md" }} textAlign="center" color={"#7A7CA8"}>
             We are among the prominent consultant for swimming pool
             construction.
           </Text>
@@ -71,14 +71,14 @@ export default function Services() {
           </Square>
 
           <Text
-            fontSize="18px"
+            fontSize={{ base: "15px", sm: "sm", md: "md" }}
             fontWeight="bold"
             textAlign="center"
             color={"#7A7CA8"}
           >
             Swimming Pool Maintenance
           </Text>
-          <Text fontSize="14px" textAlign="center" color={"#7A7CA8"}>
+          <Text fontSize={{ base: "12px", sm: "sm", md: "md" }} textAlign="center" color={"#7A7CA8"}>
             Let our trained proffessionals take care of all your pool and spa
             needs.
           </Text>
@@ -98,14 +98,14 @@ export default function Services() {
           </Square>
 
           <Text
-            fontSize="18px"
+            fontSize={{ base: "15px", sm: "sm", md: "md" }}
             fontWeight="bold"
             textAlign="center"
             color={"#7A7CA8"}
           >
             Steam Sauna Products
           </Text>
-          <Text fontSize="14px" textAlign="center" color={"#7A7CA8"}>
+          <Text fontSize={{ base: "12px", sm: "sm", md: "md" }} textAlign="center" color={"#7A7CA8"}>
             Equipped with sophisticated automation system, Steam and Sauna
             Products generates a pleasing level of heat that is skin friendly
             and healthy.
@@ -126,14 +126,14 @@ export default function Services() {
           </Square>
 
           <Text
-            fontSize="18px"
+            fontSize={{ base: "15px", sm: "sm", md: "md" }}
             fontWeight="bold"
             textAlign="center"
             color={"#7A7CA8"}
           >
             Repair & Renovation
           </Text>
-          <Text fontSize="14px" textAlign="center" color={"#7A7CA8"}>
+          <Text fontSize={{ base: "12px", sm: "sm", md: "md" }} textAlign="center" color={"#7A7CA8"}>
             To meet the variegated requirements of our customers, we are
             providing these Swimming Pool Repairing Services.
           </Text>
@@ -153,14 +153,14 @@ export default function Services() {
           </Square>
 
           <Text
-            fontSize="18px"
+            fontSize={{ base: "15px", sm: "sm", md: "md" }}
             fontWeight="bold"
             textAlign="center"
             color={"#7A7CA8"}
           >
             Jacuzzi Spa Products
           </Text>
-          <Text fontSize="14px" textAlign="center" color={"#7A7CA8"}>
+          <Text fontSize={{ base: "12px", sm: "sm", md: "md" }} textAlign="center" color={"#7A7CA8"}>
             Available with us an assortment of Spa and Jacuzzi products that
             adds lavishness and rejuvenation to your bathroom.
           </Text>

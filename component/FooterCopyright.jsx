@@ -47,7 +47,7 @@ export default function FooterCopyright() {
           justify={{ base: "center", md: "space-between" }}
           align={{ base: "center", md: "center" }}
         >
-          <Text textColor="whiteAlpha.600">
+          <Text textColor="whiteAlpha.600" fontSize={{ base: "15px", sm: "sm", md: "md" }}>
             © 2021 Bakorlabs. All rights reserved
           </Text>
           <Stack direction={"row"} spacing={6}>

@@ -1,6 +1,6 @@
 import React from "react";
 import About from "../component/About";
-import Header from "../component/Header";
+import Navbar from "../component/Navbar";
 import Info from "../component/Info";
 import Project from "../component/Project";
 import Services from "../component/Services";
@@ -10,7 +10,7 @@ import Footer from "../component/Footer";
 export default function Home() {
   return (
     <div>
-      <Header />
+      <Navbar />
       <Slider />
       <About />
       <Services />

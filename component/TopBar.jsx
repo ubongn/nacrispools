@@ -69,9 +69,16 @@ export default function TopBar() {
             </BreadcrumbItem>
 
             <BreadcrumbItem>
-              <Button colorScheme="telegram" borderRadius="0" >
-                Make An Appointment
-              </Button>
+              <BreadcrumbLink
+                href="/contact"
+                _hover={{
+                  textDecoration: "none",
+                }}
+              >
+                <Button colorScheme="telegram" borderRadius="0">
+                  Make An Appointment
+                </Button>
+              </BreadcrumbLink>
             </BreadcrumbItem>
           </Breadcrumb>
         </Box>

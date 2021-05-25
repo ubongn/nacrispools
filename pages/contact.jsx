@@ -9,6 +9,7 @@ import {
   Heading,
   Image,
   Input,
+  Link,
   SimpleGrid,
   Stack,
   Text,
@@ -59,9 +60,9 @@ export default function contact() {
           maxW="90%"
           mx="auto"
         >
-          <Box mt="5">
-            <Image src="images/logo1.svg" />
-          </Box>
+          <Link mt="5" href="/">
+            <Image src="images/logo1.svg"  />
+          </Link>
           <Box mt="5">
             <Box fontSize={{ base: "md", sm: "18", md: "20" }}>
               <PhoneIcon color="gray.400" margin={"2"} />

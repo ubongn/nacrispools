@@ -113,6 +113,7 @@ const Navbar = () => {
                 textDecoration: "none",
                 color: useColorModeValue("#7A7CA8"),
               }}
+              href="/contact"
             >
               CONTACT
             </Link>

@@ -4,12 +4,12 @@ export default async (req, res) => {
   const { name, email, message, phone, city } = req.body;
 
   const transporter = nodemailer.createTransport({
-    host: "gmail",
+    service: "gmail",
     port: 465,
     secure: true,
     auth: {
-      user: process.env.USER,
-      pass: process.env.PASSWORD,
+      user: process.env.local.user,
+      pass: process.env.local.password,
     },
   });
 

@@ -33,7 +33,7 @@ export default function Footer() {
   return (
     <>
       <Box background="#2f344e" bgSize={"cover"} w="100%" h="300px" >
-        <Container maxW={"80%"} mx="auto" >
+        <Container maxW={{ sm:"100%", md:"80%"}} mx="auto" >
           <SimpleGrid columns={[1, 3, 3]} spacing="30px"  mt={10}>
             <Box mt={10}>
               <Box>
@@ -56,7 +56,7 @@ export default function Footer() {
               <Stack align={"flex-start"}>
                 <ListHeader>Recent Post</ListHeader>
                 <Link
-                  href={"#"}
+                  href={"/"}
                   textColor={"#337ab7"}
                   fontSize={{ base: "15px", sm: "sm", md: "md" }}
                   _hover={{
@@ -67,7 +67,7 @@ export default function Footer() {
                   Home
                 </Link>
                 <Link
-                  href={"#"}
+                  href={"/about"}
                   textColor={"#337ab7"}
                   fontSize={{ base: "15px", sm: "sm", md: "md" }}
                   _hover={{
@@ -100,7 +100,7 @@ export default function Footer() {
                   Services
                 </Link>
                 <Link
-                  href={"#"}
+                  href={"/contact"}
                   textColor={"#337ab7"}
                   fontSize={{ base: "15px", sm: "sm", md: "md" }}
                   _hover={{

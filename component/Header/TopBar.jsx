@@ -21,7 +21,7 @@ export default function TopBar() {
         wrap="wrap"
         px="15"
         mx="auto"
-        maxW="95%"
+        maxW={{ sm:"100%", md:"95%"}}
       >
         <Flex mt={1} wrap="wrap">
           <Box>
@@ -42,7 +42,7 @@ export default function TopBar() {
           <Breadcrumb separator="|">
             <BreadcrumbItem>
               <BreadcrumbLink
-                href="#"
+                href="/"
                 mx="2"
                 color={useColorModeValue("#000")}
                 _hover={{
@@ -56,8 +56,9 @@ export default function TopBar() {
 
             <BreadcrumbItem>
               <BreadcrumbLink
-                href="#"
+                href="/about"
                 mx="2"
+                border="none"
                 color={useColorModeValue("#000")}
                 _hover={{
                   textDecoration: "none",

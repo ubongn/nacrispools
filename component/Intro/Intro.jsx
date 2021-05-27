@@ -10,7 +10,7 @@ import {
     useColorModeValue,
   } from "@chakra-ui/react";
   
-  export default function About() {
+  export default function Intro() {
     return (
       <Container maxW={"90%"} mt={-10}>
         <Stack

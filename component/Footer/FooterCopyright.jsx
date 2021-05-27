@@ -54,7 +54,7 @@ export default function FooterCopyright() {
             <SocialButton label={"Twitter"} href={"#"}>
               <FaTwitter />
             </SocialButton>
-            <SocialButton label={"YouTube"} href={"#"}>
+            <SocialButton label={"Facebook"} href={"#"}>
               <FaFacebook />
             </SocialButton>
             <SocialButton label={"Instagram"} href={"#"}>

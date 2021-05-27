@@ -7,8 +7,9 @@ import {
   useColorModeValue,
   IconButton,
   useDisclosure,
+  
 } from "@chakra-ui/react";
-import TopBar from "./TopBar";
+import TopBar from "../Header/TopBar";
 import { CloseIcon, HamburgerIcon } from "@chakra-ui/icons";
 
 const Navbar = () => {
@@ -17,14 +18,14 @@ const Navbar = () => {
   return (
     <>
       <TopBar />
-      <Box> 
+      <Box z-index="auto" pos="static" top="auto">
         <Flex
           as="nav"
           align="center"
           justify="space-between"
-          fontSize={{ sm: "md", md: "lg" }}
+          fontSize={{ sm: "md", md: "17px" }}
           wrap="wrap"
-          maxW="95%"
+          maxW={{ sm:"100%", md:"95%"}}
           mx="auto"
           py={{ base: 2 }}
           px={{ base: 4 }}
@@ -47,9 +48,9 @@ const Navbar = () => {
               aria-label={"Toggle Navigation"}
             />
           </Flex>
-          <Flex justify={{ base: "center", sm: "start", md: "start" }}>
+          <Link href="/" justify={{ base: "center", sm: "start", md: "start" }}>
             <Image src="images/logo1.svg" w="40" h="20" />
-          </Flex>
+          </Link>
 
           <Box
             display={{ sm: isOpen ? "block" : "none", md: "flex" }}

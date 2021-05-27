@@ -1,18 +1,18 @@
 import React from "react";
-import About from "../component/About";
-import Navbar from "../component/Navbar";
-import Info from "../component/Info";
-import Project from "../component/Project";
-import Services from "../component/Services";
-import Slider from "../component/Slider";
-import Footer from "../component/Footer";
+import Intro from "../component/Intro/Intro";
+import Navbar from "../component/Header/Navbar";
+import Info from "../component/Intro/Info";
+import Project from "../component/Jobs/Project";
+import Services from "../component/Services/Services";
+import Slider from "../component/Jobs/Slider";
+import Footer from "../component/Footer/Footer";
 
 export default function Home() {
   return (
     <div>
       <Navbar />
       <Slider />
-      <About />
+      <Intro />
       <Services />
       <Info />
       <Project />

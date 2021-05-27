@@ -117,11 +117,9 @@ export default function about() {
               letterSpacing={1}
               fontSize={{ base: "13px", sm: "sm", md: "md" }}
             >
-              We are also dealing in Pool Surround Equipment, Swimming Pool
-              Cleaning Equipment, Under Water Light, Swimming Pool Furniture,
-              Competition Equipment, Swimming Pool Chemical, Swimming Pool
-              Inflatable, Life Saving Equipment, Counter Current Nozzle,
-              Swimming Filteration Plant, Pool Pump, Pool Heater etc.
+              With the help and support of our esteemed and distinguished team
+              we are working towards to bring out the luxurious swimming pools
+              for our clients in the most innovative manner.
             </Text>
           </Stack>
         </Stack>

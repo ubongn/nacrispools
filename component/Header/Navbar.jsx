@@ -49,11 +49,11 @@ const Navbar = () => {
             />
           </Flex>
           <Link href="/" justify={{ base: "center", sm: "start", md: "start" }}>
-            <Image src="images/logo1.svg" w="40" h="20" />
+            <Image src="images/logo1.svg" w={{ base: 20, sm: 40 }} h={{ base: 10, sm: 20 }} />
           </Link>
 
           <Box
-            display={{ sm: isOpen ? "block" : "none", md: "flex" }}
+            display={{ base: isOpen ? "block" : "none", md: "flex" }}
             width={{ sm: "full", md: "auto" }}
             font-family={"Open Sans"}
           >

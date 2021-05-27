@@ -39,7 +39,7 @@ export default function FooterCopyright() {
       <Box background="#010517" bgSize={"cover"} w="100%">
         <Container
           as={Stack}
-          maxW={"6xl"}
+          maxW="6xl"
           wrap="wrap"
           py={4}
           direction={{ base: "column", md: "row" }}
@@ -47,7 +47,7 @@ export default function FooterCopyright() {
           justify={{ base: "center", md: "space-between" }}
           align={{ base: "center", md: "center" }}
         >
-          <Text textColor="whiteAlpha.600" fontSize={{ base: "15px", sm: "sm", md: "md" }}>
+          <Text textColor="whiteAlpha.600" fontSize={{ base: "13px", sm: "sm", md: "md" }}>
             © 2021 Bakorlabs. All rights reserved
           </Text>
           <Stack direction={"row"} spacing={6}>

@@ -17,11 +17,11 @@ export default function TopBar() {
         align="center"
         justify="space-between"
         lineHeight="30px"
-        fontSize={{ base: "sm", sm: "sm", md: "md" }}
+        fontSize={{ base: "13px", sm: "sm", md: "md" }}
         wrap="wrap"
         px="15"
         mx="auto"
-        maxW={{ sm:"100%", md:"95%"}}
+        maxW={{ sm: "100%", md: "95%" }}
       >
         <Flex mt={1} wrap="wrap">
           <Box>
@@ -44,6 +44,7 @@ export default function TopBar() {
               <BreadcrumbLink
                 href="/"
                 mx="2"
+                border="none"
                 color={useColorModeValue("#000")}
                 _hover={{
                   textDecoration: "none",

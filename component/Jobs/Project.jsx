@@ -11,7 +11,7 @@ import React from "react";
 export default function Project() {
   return (
     <>
-      <Container maxW={"90%"} mt={10}  align="center" justify="space-between">
+      <Container maxW={{sm:"100%", md:"90%"}} mt={10}  align="center" justify="space-between">
         <Center>
           <Text
             as={"span"}
@@ -32,7 +32,7 @@ export default function Project() {
             <Image src="/gallery/pic6.jpg" alt="pool image" />
             <Image src="/gallery/pic7.jpg" alt="pool image" />
             <Image src="/gallery/pic13.jpg" alt="pool image" />
-            <Image src="/gallery/pic14.jpg" alt="pool image" />
+            <Image src="/gallery/pic9.jpg" alt="pool image" />
           </SimpleGrid>
         </Box>
       </Container>

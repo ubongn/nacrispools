@@ -17,7 +17,7 @@ import {
 
 export default function Services() {
   return (
-    <Container maxW={"90%"}>
+    <Container maxW={{ base:"100%",sm:"100%", md:"90%"}}>
       <Center>
         <Text
           as={"span"}

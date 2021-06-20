@@ -7,7 +7,6 @@ import {
   useColorModeValue,
   IconButton,
   useDisclosure,
-  
 } from "@chakra-ui/react";
 import TopBar from "../Header/TopBar";
 import { CloseIcon, HamburgerIcon } from "@chakra-ui/icons";
@@ -23,9 +22,9 @@ const Navbar = () => {
           as="nav"
           align="center"
           justify="space-between"
-          fontSize={{ sm: "md", md: "17px" }}
+          fontSize={{base:"10px", sm: "md", md: "17px" }}
           wrap="wrap"
-          maxW={{ sm:"100%", md:"95%"}}
+          maxW={{ sm: "100%", md: "95%" }}
           mx="auto"
           py={{ base: 2 }}
           px={{ base: 4 }}
@@ -49,7 +48,11 @@ const Navbar = () => {
             />
           </Flex>
           <Link href="/" justify={{ base: "center", sm: "start", md: "start" }}>
-            <Image src="images/logo1.svg" w={{ base: 20, sm: 40 }} h={{ base: 10, sm: 20 }} />
+            <Image
+              src="images/logo1.svg"
+              w={{ base: 20, sm: 40 }}
+              h={{ base: 10, sm: 20 }}
+            />
           </Link>
 
           <Box

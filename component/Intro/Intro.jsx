@@ -12,7 +12,7 @@ import {
   
   export default function Intro() {
     return (
-      <Container maxW={"90%"} mt={-10}>
+      <Container maxW={{sm:"100%", md:"90%"}} mt={-10}>
         <Stack
           align={"center"}
           spacing={{ base: 8, md: 10 }}

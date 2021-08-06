@@ -9,7 +9,7 @@ export default function Offer() {
           We Offer
         </Text>
       </Center>
-      <SimpleGrid columns={[2, 3, 6]} spacing={10} mt={10}>
+      <SimpleGrid columns={[2, 3, 6]} spacing={10} mt={10} fontFamily="Poppins">
         <Box>
           <Image src="images/Clinics.png" />
           <Text fontSize={{ base: "14px", sm: "sm", md: "md" }}>

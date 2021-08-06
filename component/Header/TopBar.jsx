@@ -17,6 +17,7 @@ export default function TopBar() {
         align="center"
         justify="space-between"
         lineHeight="30px"
+        fontFamily="Poppins"
         fontSize={{ base: "13px", sm: "sm", md: "md" }}
         wrap="wrap"
         px="15"

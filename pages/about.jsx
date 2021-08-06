@@ -30,6 +30,7 @@ export default function about() {
           pl="30px"
           mr="auto"
           ml="auto"
+          fontFamily="Poppins"
         >
           <Flex
             align="center"
@@ -78,7 +79,7 @@ export default function about() {
         </Container>
       </Box>
 
-      <Container maxW={{ sm: "100%", md: "90%" }}>
+      <Container maxW={{ sm: "100%", md: "90%" }} fontFamily="Poppins">
         <Stack
           spacing={{ base: 8, md: 8 }}
           py={{ base: 20, md: 28 }}
@@ -90,7 +91,7 @@ export default function about() {
             align={"center"}
             position={"relative"}
           >
-            <Image alt={"About Image"} src={"gallery/mission.jpg"} />
+            <Image alt={"About Image"} src={"latest/l9.jpg"} />
           </Box>
           <Stack flex={1} spacing={{ base: 3, md: 5 }}>
             <Heading
@@ -124,12 +125,12 @@ export default function about() {
           </Stack>
         </Stack>
       </Container>
-      <Container maxW={{ sm: "100%", md: "90%" }} mt="-9">
+      <Container maxW={{ sm: "100%", md: "90%" }} mt="-9"  fontFamily="Poppins">
         <Stack
           spacing={{ base: 8, md: 8 }}
           direction={{ base: "column", md: "row" }}
         >
-          <Stack flex={1} spacing={{ base: 3, md: 5 }}>
+          <Stack flex={1}  mt="10" spacing={{ base: 3, md: 5 }}>
             <Heading
               lineHeight={1}
               color="#7A7CA8"
@@ -155,7 +156,7 @@ export default function about() {
             align={"center"}
             position={"relative"}
           >
-            <Image alt={"vision Image"} src={"gallery/vision2.jpg"} />
+            <Image alt={"vision Image"} src={"latest/l18.jpg"} />
           </Box>
         </Stack>
       </Container>

@@ -1,3 +1,4 @@
+import "../styles/globals.css";
 import { ChakraProvider } from "@chakra-ui/react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 

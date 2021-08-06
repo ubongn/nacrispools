@@ -8,6 +8,7 @@ export default function ContactAbout() {
         <Box>
           <Heading
             as="h5"
+            fontFamily="Poppins"
             fontSize={{ base: "18 px", sm: "sm", md: "md" }}
             mb="2"
           >
@@ -15,7 +16,7 @@ export default function ContactAbout() {
           </Heading>
         </Box>
         <Box>
-          <Text fontSize={{ base: "13px", sm: "sm", md: "md" }}>
+          <Text fontFamily="Poppins" fontSize={{ base: "13px", sm: "sm", md: "md" }}>
             Nacrispools has 9 years Experiance of pool building and
             construction. Nacrispools is involved in the construction of
             commercial and residential swimming pools as well as the renovation
@@ -26,7 +27,7 @@ export default function ContactAbout() {
             Current Nozzle, Swimming Filteration Plant, Pool Pump, Pool Heater
             etc.
           </Text>
-          <Text mt="3" fontSize={{ base: "13px", sm: "sm", md: "md" }}>
+          <Text mt="3" fontFamily="Poppins" fontSize={{ base: "13px", sm: "sm", md: "md" }}>
             We are working hard to provide you with the excellent amount of
             resources in the form of various other kinds services in the field
             that will completely transform you with the superb perfection.

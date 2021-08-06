@@ -46,7 +46,7 @@ import {
                 We Are Swimming Pool Service Experts
               </Text>
             </Heading>
-            <Text color={"gray.500"} fontSize={{ base: "13px", sm: "sm", md: "md" }}>
+            <Text color={"gray.400"} fontFamily="Poppins" fontSize={{ base: "13px", sm: "sm", md: "md" }}>
               Nacris Pools is involved in the construction of commercial, semi
               commercial and residential swimming pools as well as the renovation
               and repair of existing pools. We are also dealing in Pool Surround

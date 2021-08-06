@@ -19,7 +19,7 @@ export default function Footer() {
   return (
     <>
       <Box background="#2f344e" bgSize={"cover"} w="100%" h="350px">
-        <Container maxW={{ sm: "100%", md: "88%" }} mx="auto">
+        <Container maxW={{ sm: "100%", md: "88%" }} mx="auto"  fontFamily="Poppins">
           <SimpleGrid columns={[2, 2, 3]} spacing={{ base: 9, sm: 10 }} mt={10}>
             <Box mt={10}>
               <Box>

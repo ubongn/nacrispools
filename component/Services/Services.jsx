@@ -23,6 +23,7 @@ export default function Services() {
           as={"span"}
           color={"gray.400"}
           fontWeight={200}
+          fontFamily="Poppins"
           fontSize={{ base: "24px", sm: "3xl", lg: "4xl" }}
         >
           OUR SERVICES
@@ -45,6 +46,7 @@ export default function Services() {
 
           <Text
             fontSize={{ base: "11px", sm: "sm", md: "md" }}
+            fontFamily="Poppins"
             fontWeight="bold"
             textAlign="center"
             color={"#7A7CA8"}
@@ -73,6 +75,7 @@ export default function Services() {
           <Text
             fontSize={{ base: "11px", sm: "sm", md: "md" }}
             fontWeight="bold"
+            fontFamily="Poppins"
             textAlign="center"
             color={"#7A7CA8"}
           >
@@ -100,6 +103,7 @@ export default function Services() {
           <Text
             fontSize={{ base: "11px", sm: "sm", md: "md" }}
             fontWeight="bold"
+            fontFamily="Poppins"
             textAlign="center"
             color={"#7A7CA8"}
           >
@@ -128,6 +132,7 @@ export default function Services() {
           <Text
             fontSize={{ base: "11px", sm: "sm", md: "md" }}
             fontWeight="bold"
+            fontFamily="Poppins"
             textAlign="center"
             color={"#7A7CA8"}
           >
@@ -155,6 +160,7 @@ export default function Services() {
           <Text
             fontSize={{ base: "11px", sm: "sm", md: "md" }}
             fontWeight="bold"
+            fontFamily="Poppins"
             textAlign="center"
             color={"#7A7CA8"}
           >

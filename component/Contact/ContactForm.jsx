@@ -64,6 +64,7 @@ export default function ContactForm() {
           <Text
             bgGradient="linear(to-l, #7928CA,#FF0080)"
             bgClip="text"
+            fontFamily="Poppins"
             fontSize={{ base: "18", sm: "20", md: "26" }}
             fontWeight="bold"
           >
@@ -73,7 +74,7 @@ export default function ContactForm() {
         <Box p={6}>
           <form onSubmit={handleSubmit(onSubmitForm)}>
             <FormControl id="name" isRequired>
-              <FormLabel fontSize={{ base: "sm", sm: "md", md: "lg" }}>
+              <FormLabel fontFamily="Poppins" fontSize={{ base: "sm", sm: "md", md: "lg" }}>
                 Name
               </FormLabel>
               <Input
@@ -89,7 +90,7 @@ export default function ContactForm() {
               <span> {errors?.name?.message}</span>
             </FormControl>
             <FormControl id="email" isRequired>
-              <FormLabel fontSize={{ base: "sm", sm: "md", md: "lg" }}>
+              <FormLabel fontFamily="Poppins" fontSize={{ base: "sm", sm: "md", md: "lg" }}>
                 Email
               </FormLabel>
               <Input
@@ -109,7 +110,7 @@ export default function ContactForm() {
               <span> {errors?.email?.message}</span>
             </FormControl>
             <FormControl id="city" isRequired>
-              <FormLabel fontSize={{ base: "sm", sm: "md", md: "lg" }}>
+              <FormLabel fontFamily="Poppins" fontSize={{ base: "sm", sm: "md", md: "lg" }}>
                 City
               </FormLabel>
               <Input
@@ -125,7 +126,7 @@ export default function ContactForm() {
               <span> {errors?.city?.message}</span>
             </FormControl>
             <FormControl id="phone" isRequired>
-              <FormLabel fontSize={{ base: "sm", sm: "md", md: "lg" }}>
+              <FormLabel fontFamily="Poppins" fontSize={{ base: "sm", sm: "md", md: "lg" }}>
                 Phone
               </FormLabel>
               <Input
@@ -141,7 +142,7 @@ export default function ContactForm() {
               <span> {errors?.phone?.message}</span>
             </FormControl>
             <FormControl id="message" isRequired>
-              <FormLabel fontSize={{ base: "sm", sm: "md", md: "lg" }}>
+              <FormLabel fontFamily="Poppins" fontSize={{ base: "sm", sm: "md", md: "lg" }}>
                 Message
               </FormLabel>
               <Textarea
@@ -160,6 +161,7 @@ export default function ContactForm() {
               mt="4"
               colorScheme="blue"
               type="submit"
+              fontFamily="Poppins"
               fontSize={{ base: "sm", sm: "md", md: "lg" }}
             >
               Send Request

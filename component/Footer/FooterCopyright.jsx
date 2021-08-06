@@ -39,6 +39,7 @@ export default function FooterCopyright() {
       <Box background="#010517" bgSize={"cover"} w="100%">
         <Container
           as={Stack}
+          fontFamily="Poppins"
           maxW="6xl"
           wrap="wrap"
           py={4}

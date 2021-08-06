@@ -15,6 +15,7 @@ export default function ContactFooter() {
         align={{ base: "center", md: "center" }}
       >
         <Text
+          fontFamily="Poppins"
           textColor="whiteAlpha.600"
           fontSize={{ base: "13px", sm: "sm", md: "md" }}
         >

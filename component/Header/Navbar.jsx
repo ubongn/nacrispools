@@ -22,6 +22,7 @@ const Navbar = () => {
           as="nav"
           align="center"
           justify="space-between"
+          fontFamily="Poppins"
           fontSize={{base:"10px", sm: "md", md: "17px" }}
           wrap="wrap"
           maxW={{ sm: "100%", md: "95%" }}

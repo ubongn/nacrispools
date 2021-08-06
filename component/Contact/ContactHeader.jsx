@@ -19,6 +19,7 @@ export default function ContactHeader() {
         justifyContent="space-between"
         wrap="wrap"
         display="flex"
+        fontFamily="Poppins"
       >
         <Link mt="5" href="/">
           <Image src="images/logo1.svg" w="40" h="20" />

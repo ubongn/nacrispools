@@ -49,16 +49,16 @@ export default function FooterCopyright() {
           align={{ base: "center", md: "center" }}
         >
           <Text textColor="whiteAlpha.600" fontSize={{ base: "13px", sm: "sm", md: "md" }}>
-            © 2021 Bakorlabs. All rights reserved
+            © Nacrispools, 2022.
           </Text>
           <Stack direction={"row"} spacing={6}>
-            <SocialButton label={"Twitter"} href={"#"}>
+            {/* <SocialButton label={"Twitter"} href={"#"}>
               <FaTwitter />
             </SocialButton>
             <SocialButton label={"Facebook"} href={"#"}>
               <FaFacebook />
-            </SocialButton>
-            <SocialButton label={"Instagram"} href={"/instagram.com/nacrispools/"}>
+            </SocialButton> */}
+            <SocialButton label={"Instagram"} href="/instagram.com/nacrispools/">
               <FaInstagram />
             </SocialButton>
           </Stack>

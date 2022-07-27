@@ -19,7 +19,7 @@ export default function ContactFooter() {
           textColor="whiteAlpha.600"
           fontSize={{ base: "13px", sm: "sm", md: "md" }}
         >
-          © 2021 Bakorlabs. All rights reserved
+         © Nacrispools, 2022.
         </Text>
       </Container>
     </Box>

@@ -4,19 +4,19 @@ export default async (req, res) => {
   const { name, email, message, phone, city } = req.body;
 
   const transporter = nodemailer.createTransport({
-    service: "gmail",
+    service: "smtp.gmail",
     port: 465,
     secure: true,
     auth: {
-      user: process.env.local.user,
-      pass: process.env.local.password,
+      user: 'yubbie1304@gmail.com',
+      pass: 'wungbo1986'
     },
   });
 
   try {
     const emailRes = await transporter.sendMail({
-      from: "yubbie1304@gmail.com",
-      to: "ubongnt@gmail.com",
+      from: email,
+      to: "ubonggodwin13@gmail.com",
       subject: `Contact form submission from ${name}`,
       html: `<p>You have a new contact form submission</p><br>
       <p><strong>Name: </strong> ${name} </p><br>
@@ -26,10 +26,16 @@ export default async (req, res) => {
       `,
     });
 
-    console.log("Message Sent");
+    console.log("Message Sent", emailRes.messageId);
   } catch (err) {
     console.log(err);
   }
 
   res.status(200).json(req.body);
 };
+
+
+// export default (req, res) => {
+//   console.log(req.body);
+//   res.status(200).json(req.body);
+// };

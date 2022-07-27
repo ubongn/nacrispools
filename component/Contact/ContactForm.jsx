@@ -10,8 +10,12 @@ import {
   Textarea,
 } from "@chakra-ui/react";
 import { useForm } from "react-hook-form";
+
+import { useRouter } from "next/router"
 import axios from "axios";
 import React from "react";
+
+
 
 export default function ContactForm() {
   const {
@@ -20,7 +24,11 @@ export default function ContactForm() {
     formState: { errors },
     reset,
   } = useForm();
+
+  const router = useRouter()
   async function onSubmitForm(values) {
+    // console.log(values);
+    
     let config = {
       method: "post",
       url: `${process.env.NEXT_PUBLIC_API_URL}/api/contact`,
@@ -35,6 +43,7 @@ export default function ContactForm() {
       console.log(response);
       if (response.status == 200) {
         reset();
+        router.push('/')
         toast(
           "success",
           "Thank you for contacting us, we will be in touch soon."
@@ -74,7 +83,10 @@ export default function ContactForm() {
         <Box p={6}>
           <form onSubmit={handleSubmit(onSubmitForm)}>
             <FormControl id="name" isRequired>
-              <FormLabel fontFamily="Poppins" fontSize={{ base: "sm", sm: "md", md: "lg" }}>
+              <FormLabel
+                fontFamily="Poppins"
+                fontSize={{ base: "sm", sm: "md", md: "lg" }}
+              >
                 Name
               </FormLabel>
               <Input
@@ -90,7 +102,10 @@ export default function ContactForm() {
               <span> {errors?.name?.message}</span>
             </FormControl>
             <FormControl id="email" isRequired>
-              <FormLabel fontFamily="Poppins" fontSize={{ base: "sm", sm: "md", md: "lg" }}>
+              <FormLabel
+                fontFamily="Poppins"
+                fontSize={{ base: "sm", sm: "md", md: "lg" }}
+              >
                 Email
               </FormLabel>
               <Input
@@ -110,7 +125,10 @@ export default function ContactForm() {
               <span> {errors?.email?.message}</span>
             </FormControl>
             <FormControl id="city" isRequired>
-              <FormLabel fontFamily="Poppins" fontSize={{ base: "sm", sm: "md", md: "lg" }}>
+              <FormLabel
+                fontFamily="Poppins"
+                fontSize={{ base: "sm", sm: "md", md: "lg" }}
+              >
                 City
               </FormLabel>
               <Input
@@ -126,7 +144,10 @@ export default function ContactForm() {
               <span> {errors?.city?.message}</span>
             </FormControl>
             <FormControl id="phone" isRequired>
-              <FormLabel fontFamily="Poppins" fontSize={{ base: "sm", sm: "md", md: "lg" }}>
+              <FormLabel
+                fontFamily="Poppins"
+                fontSize={{ base: "sm", sm: "md", md: "lg" }}
+              >
                 Phone
               </FormLabel>
               <Input
@@ -142,7 +163,10 @@ export default function ContactForm() {
               <span> {errors?.phone?.message}</span>
             </FormControl>
             <FormControl id="message" isRequired>
-              <FormLabel fontFamily="Poppins" fontSize={{ base: "sm", sm: "md", md: "lg" }}>
+              <FormLabel
+                fontFamily="Poppins"
+                fontSize={{ base: "sm", sm: "md", md: "lg" }}
+              >
                 Message
               </FormLabel>
               <Textarea

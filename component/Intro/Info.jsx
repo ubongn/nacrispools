@@ -8,7 +8,12 @@ export default function Info() {
         mt={10}
         bgImage="url('/images/bg1.jpg')"
         bgSize={"cover"}
+        // bgGradient={'linear(to-r, blackAlpha.600, transparent)'}
         bgRepeat="no-repeat"
+        bgOpacity="50%"
+        //  bg="black"
+
+        // bg="rgba(0, 0, 0, 0.3)"
         w="100%"
         h="400px"
       >
@@ -29,10 +34,16 @@ export default function Info() {
             >
               Please Feel Free To Contact Us
             </Text>
-            <Box pt={10} fontFamily="Poppins" fontSize={{ base: "18px", sm: "2xl", lg: "2xl" }}>
-              <Text color={"#fff"}> Hotline: +233 57 289 0312</Text>
-              <Text color={"#fff"}> Hotline: +234 706 566 3620</Text>
-              <Text color={"#fff"}>Mail Address: info@nacrispools.com</Text>
+            <Box
+              pt={10}
+              color={"#C70039"}
+              fontFamily="Poppins"
+              fontWeight="semibold"
+              fontSize={{ base: "18px", sm: "2xl", lg: "2xl" }}
+            >
+              <Text> Hotline: +233 57 289 0312</Text>
+              <Text> Hotline: +234 706 566 3620</Text>
+              <Text>Mail Address: info@nacrispools.com</Text>
             </Box>
           </Box>
         </Box>

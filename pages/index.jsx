@@ -17,10 +17,10 @@ export default function Home() {
       <Info />
       <Project />
       <Footer />
-      <a href="https://wa.link/0tr1yx" class="whatsapp_float" target="_blank">
+      {/* <a href="https://wa.link/0tr1yx" class="whatsapp_float" target="_blank">
         
         <i class="fa fa-whatsapp whatsapp-icon"></i>
-      </a>
+      </a> */}
     </div>
   );
 }

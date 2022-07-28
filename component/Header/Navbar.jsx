@@ -109,7 +109,7 @@ const Navbar = () => {
             >
               SERVICES
             </Link>
-            <Link
+            {/* <Link
               mr={6}
               mt={{ base: 4, md: 0 }}
               display="block"
@@ -121,7 +121,7 @@ const Navbar = () => {
               href="/contact"
             >
               CONTACT
-            </Link>
+            </Link> */}
           </Box>
         </Flex>
       </Box>

@@ -19,11 +19,16 @@ export default function Footer() {
   return (
     <>
       <Box background="#2f344e" bgSize={"cover"} w="100%" h="350px">
-        <Container maxW={{ sm: "100%", md: "88%" }} mx="auto"  fontFamily="Poppins">
+        <Container
+          maxW={{ sm: "100%", md: "88%" }}
+          mx="auto"
+          fontFamily="Poppins"
+        >
           <SimpleGrid columns={[2, 2, 3]} spacing={{ base: 9, sm: 10 }} mt={10}>
             <Box mt={10}>
               <Box>
                 <Image
+                  alt="logo1"
                   src="images/logo1.svg"
                   w={{ base: 20, sm: 40 }}
                   h={{ base: 10, sm: 20 }}
@@ -117,7 +122,7 @@ export default function Footer() {
                 </Link>
               </Stack>
             </Box>
-            <Box py={19}  mt={{base:"-14", md:"10"}} >
+            <Box py={19} mt={{ base: "-14", md: "10" }}>
               <Stack align={"flex-start"}>
                 <Text
                   fontWeight={"500"}

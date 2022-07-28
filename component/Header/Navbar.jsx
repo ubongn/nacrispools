@@ -51,6 +51,7 @@ const Navbar = () => {
           <Link href="/" justify={{ base: "center", sm: "start", md: "start" }}>
             <Image
               src="images/logo1.svg"
+              alt="logo"
               w={{ base: 20, sm: 40 }}
               h={{ base: 10, sm: 20 }}
             />

@@ -6,7 +6,7 @@ export default function Info() {
     <>
       <Box
         mt={10}
-        bgImage="url('/images/bg1.jpg')"
+        bgImage="linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url('/images/bg1.jpg')"
         bgSize={"cover"}
         // bgGradient={'linear(to-r, blackAlpha.600, transparent)'}
         bgRepeat="no-repeat"
@@ -30,13 +30,13 @@ export default function Info() {
               color={"#fff"}
               fontFamily="Poppins"
               fontWeight={400}
-              fontSize={{ base: "1", sm: "2xl", lg: "4xl" }}
+              fontSize={{ base: "lg", sm: "2xl", lg: "4xl" }}
             >
               Please Feel Free To Contact Us
             </Text>
             <Box
               pt={10}
-              color={"#C70039"}
+              color={"#fff"}
               fontFamily="Poppins"
               fontWeight="semibold"
               fontSize={{ base: "18px", sm: "2xl", lg: "2xl" }}

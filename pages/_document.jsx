@@ -30,6 +30,14 @@ class MyDocument extends Document {
             rel="stylesheet"
             href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
           />
+          <noscript>
+            <img
+              height="1"
+              width="1"
+              
+              src="https://www.facebook.com/tr?id=461748918788838&ev=PageView&noscript=1"
+            />
+          </noscript>
         </Head>
         <body>
           <Main />

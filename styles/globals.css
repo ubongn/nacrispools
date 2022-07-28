@@ -8,7 +8,7 @@ body {
 * {
   box-sizing: border-box;
 }
-/* for desktop */
+/* for desktop
 .whatsapp_float {
   position: fixed;
   width: 60px;
@@ -28,7 +28,7 @@ body {
   margin-top: 16px;
 }
 /* for mobile */
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .whatsapp-icon {
     margin-top: 10px;
   }
@@ -39,4 +39,4 @@ body {
     right: 10px;
     font-size: 22px;
   }
-}
+} */ 
